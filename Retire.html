@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Retirement</title>
+  <link rel="stylesheet" href="/static/style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet">
+</head>
+<body>
+      <ul>
+  <li><a href="/">Home</a></li>
+  <li><a href="BMI">BMI</a></li>
+</ul>
+  <h3><b>R</b>etirement <b>C</b>alculator</h3>
+<form class="form" id="form" onsubmit="return validateForm()">
+<div class="row-one">
+  <input type="number" class="text-input" id="age" autocomplete="off" required><p class="text">Age</p>
+    <input type="number" class="text-input" id="salary" autocomplete="off" required><p class="text">Salary</p>
+  </div>
+
+<div class="row-two">
+  <input type="number" class="text-input" id="Saved" autocomplete="off" required><p class="text">$Saved</p>
+  <input type="number" class="text-input" id="Goal" autocomplete="off" required><p class="text">$Goal</p>
+</div>
+<button type="button" id="submit">Submit</button>
+</form>
+  <button type="button" id="submit" onClick="reset()">Reset</button>
+</body>
+<!-- partial -->
+  <script  src="/static/retire.js"></script>
+
+</body>
+</html>
