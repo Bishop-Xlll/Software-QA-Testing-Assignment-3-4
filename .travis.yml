@@ -26,5 +26,5 @@ script:
 deploy:
   skip_cleanup: true
   provider: gae
-  keyfile: "sw-testint-assignment3-088c548f2fce.json"
-  project: "sw-testint-assignment3"
+  keyfile: sw-testint-assignment3-088c548f2fce.json
+  project: sw-testint-assignment3
