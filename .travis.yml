@@ -21,3 +21,5 @@ install:
 
 script:
 - npm test
+- npm test:coveralls
+- npm test:coverage 
