@@ -20,4 +20,5 @@ install:
 - npm install jest
 
 script:
+- npm 
 - npm test

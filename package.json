@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
+    "test:coveralls": "jest --coverage && coveralls < coverage/lcov.info",
     "test:coverage": "jest --coverage",
     "start": "node server.js"
   },
