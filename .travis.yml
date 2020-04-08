@@ -22,3 +22,8 @@ install:
 script:
 - npm test
 - npm run test:coverage 
+
+deploy:
+  provider: gae
+  keyfile: "sw-testint-assignment3-088c548f2fce"
+  project: "sw-testint-assignment3"
