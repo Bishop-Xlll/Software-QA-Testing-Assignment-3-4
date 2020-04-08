@@ -6,3 +6,6 @@
     - node
 
   cache: npm
+
+  script:
+    - npm run test:coveralls
