@@ -17,6 +17,7 @@ before_install:
 
 install:
 - npm install
+- jest
 
 script:
 - npm test
